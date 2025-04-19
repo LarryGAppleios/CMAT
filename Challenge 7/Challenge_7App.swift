@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Challenge_7App: App {
+struct C7App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           SplashViewControllerRepresentable()
         }
     }
 }
